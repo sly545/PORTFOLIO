@@ -1,5 +1,40 @@
+/* laptop */
+@media screen and (max-width:1093px){
+
+    .header-container{
+        flex-direction: column;
+    } 
+    .profile-photo{
+        margin-bottom: 12px;
+    }
+    .card{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .descrip-projet {
+        font-size: 16px;
+    }
+}
+    
+
+
+
+
 
 @media screen and (max-width:448px){
+
+    .header-text h1{
+        font-size: 20px;
+    }
+    .header-text p {
+        font-size: 20px;
+    }
+    .header-text p.tagline{
+        font-size: 19px;
+    }
 
     .header-container{
         flex-direction: column;
@@ -9,11 +44,11 @@
     }
     .card{
         width:100%;
+        
     }
 
-.titre-projet{
+   .titre-projet{
     margin-bottom: 0px;
     margin-top: 8px;
-}
-
+   }
 }
