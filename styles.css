@@ -8,6 +8,10 @@ body.no-scroll {
 .hidden {
     display: none; /* Cette règle masque l'élément */
 }   
+.rejouer-video{
+ color: #cccccc;
+    }
+
 #intro {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,22 @@ body.no-scroll {
     height: 100vh;
     width: 100%;
 }
+
+#skipVideo {
+    position: absolute; /* Positionne le bouton par rapport à son conteneur */
+    bottom: 20px; /* Distance du bas du conteneur */
+    right: 20px; /* Distance du côté droit du conteneur */
+    padding: 10px 20px; /* Padding intérieur du bouton */
+    background-color: #444; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Style de curseur */
+}
+
+#skipVideo:hover {
+    background-color: #666; /* Changement de couleur au survol */
+}
+
 
 
 #introVideo {
@@ -59,7 +79,9 @@ body.no-scroll {
       text-align: center;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       transition: box-shadow 0.3s ease-in-out;
+      animation: dropAndBounce 1s ;
       animation: bounce 2s infinite; /* Appliquez l'animation ici */
+    
   }
   
   .rectangle:hover {
@@ -277,6 +299,9 @@ footer {
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column; /* Empile les éléments verticalement sur les écrans plus petits */
+    }
+    .profile-photo{
+        margin-bottom: 15px;
     }
 }
 

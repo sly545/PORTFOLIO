@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Empile les éléments verticalement sur les écrans plus petits */
+    }
+    .header-text{
+        color: blue;
+    }
+
+}
+
