@@ -294,15 +294,3 @@ footer {
     text-decoration: underline; /* Soulignement au survol */
 }
 
-
-
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column; /* Empile les éléments verticalement sur les écrans plus petits */
-    }
-    .profile-photo{
-        margin-bottom: 15px;
-    }
-}
-
-

@@ -1,0 +1,19 @@
+
+@media screen and (max-width:448px){
+
+    .header-container{
+        flex-direction: column;
+    } 
+    .profile-photo{
+        margin-bottom: 12px;
+    }
+    .card{
+        width:100%;
+    }
+
+.titre-projet{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+}
