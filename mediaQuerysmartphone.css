@@ -19,7 +19,17 @@
     }
 }
     
+@media screen and (orientation: landscape) and (max-height: 400px){
 
+    .profile-photo{
+        margin-bottom: 12px;
+        width: 200px;
+    }
+    .header-text{
+        padding: 10px;
+    }
+
+}
 
 
 
@@ -41,6 +51,7 @@
     } 
     .profile-photo{
         margin-bottom: 12px;
+        width: 225px;
     }
     .card{
         width:100%;
@@ -52,3 +63,5 @@
     margin-top: 8px;
    }
 }
+
+
