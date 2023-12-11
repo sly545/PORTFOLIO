@@ -21,6 +21,16 @@ body.no-scroll {
     width: 100%;
 }
 
+.header-text a {
+    color: #333; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+.header-text a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+
 #skipVideo {
     position: absolute; /* Positionne le bouton par rapport à son conteneur */
     bottom: 20px; /* Distance du bas du conteneur */

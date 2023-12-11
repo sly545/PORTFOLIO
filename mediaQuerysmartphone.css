@@ -28,6 +28,7 @@
     .header-text{
         padding: 10px;
     }
+    
 
 }
 
@@ -62,6 +63,11 @@
     margin-bottom: 0px;
     margin-top: 8px;
    }
+   .header-text a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
 }
 
 
