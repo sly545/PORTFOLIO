@@ -67,7 +67,28 @@
     font-size: 14px;
     color: #333;
     text-decoration: none;
-}
+   }
+   .rectangle{
+    width: 283px;
+    height: 83px;
+
+   }
+
+   .rectangle .name{
+    font-size: 24px;
+    margin: 0px;
+    padding-bottom: 4px;
+   }
+   .rectangle .title{
+    font-size: 19px;
+    margin: 0px;
+   }
+
+
+
+
+
+
 }
 
 
